@@ -1,5 +1,5 @@
 footer {
-    background-color: darkslategray;
+    background-color: darkseagreen;
 } 
 
 footer h6 {
@@ -13,4 +13,9 @@ form {
 
 nav {
     position: fixed;
+}
+
+figure {
+    background-color: darkslateblue;
+    padding: 20px;
 }
