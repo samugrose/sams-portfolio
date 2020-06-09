@@ -18,4 +18,5 @@ nav {
 figure {
     background-color: darkslateblue;
     padding: 20px;
+    border-radius: 10px;
 }
