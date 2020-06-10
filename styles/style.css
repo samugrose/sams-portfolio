@@ -2,6 +2,14 @@ footer {
     background-color: #8fbc8f;
 } 
 
+h3 {
+    color: darkslateblue;
+}
+
+h5 {
+    color: #212529;
+}
+
 footer h6 {
     padding: 10px;
 }
