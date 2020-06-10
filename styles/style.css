@@ -1,6 +1,12 @@
+
+
 footer {
     background-color: #8fbc8f;
 } 
+
+q {
+    font-style: italic;
+}
 
 h3 {
     color: darkslateblue;
