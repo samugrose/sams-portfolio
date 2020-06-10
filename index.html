@@ -1,97 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    
-    <!--Navbar from bootstrap with drop down for social media-->
+
+    <!--Navbar from bootstrap with drop down for social media, linking to each section of site as well-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light .bg-success">
         <a class="navbar-brand" href="index.html">Sam Grose</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
         <section class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Social Media
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://www.facebook.com/samuel.grose.9" target="_blank">Facebook</a>
-                <a class="dropdown-item" href="https://www.instagram.com/samgoesneats/?hl=en" target="_blank">Instagram</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="https://samugrose.github.io/portfolio/" target="_blank">Blog</a>
-              </div>
-            </li>
-          </ul>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Social Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.facebook.com/samuel.grose.9"
+                            target="_blank">Facebook</a>
+                        <a class="dropdown-item" href="https://www.instagram.com/samgoesneats/?hl=en"
+                            target="_blank">Instagram</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://samugrose.github.io/portfolio/" target="_blank">Blog</a>
+                    </div>
+                </li>
+            </ul>
         </section>
-      </nav>
-      <!--main content-->
-      <section class="container">
-            <!--add padded class h3-->
-            <section class="row d-flex flex-column align-items-center justify-content-center">
-                <section class="col-md-12 d-flex justify-content-center">
-                    <h3 class="padded">About Me</h3>
-                </section>
-                <section class="col-md-12 d-flex justify-content-center">
-                    <h5 class="padded">Sam Grose</h3>
-                </section>
-                <section class="row">
-                    <section class="col-md-5 d-flex justify-content-center">
-                        <img class="img-fluid" src="images/sams-headshot.jpg" alt="Sam's Headshot">
-                            
-                    </section>
-                    <aside class="col-md-7 d-flex flex-column align-items-center justify-content-center">
-                            <p>Nice to meet you! I'm a creative polyglot becoming a full stack developer, with the intent to run a food blog.</p>
-                            <section class="container">
-                                <section class="row d-flex ">
-                                    <section class="col-md-6">
-                                        <p> <strong>Foreign Languages I speak:</strong></p>
-                                        <ul>
-                                            <li>Spanish</li>
-                                            <li>Portuguese (Brazilian)</li>
-                                            <li>Mandarin</li>
-                                        </ul>
-                                    </section>
-                                    <section class="col-md-6">
-                                        <p> <strong>Programming Languages:</strong></p>
-                                        <ul>
-                                            <li>Java</li>
-                                            <li>Javascript</li>
-                                            <li>HTML/CSS</li>
-                                        </ul>
-                                    </section>
-                                </section>
-                        </section>
-                        <p><q>Knowledge and understanding can only increase the odds of success</q></p>
-                                    <p>- Gordon LaVelle</p>
-                    </aside>
-                </section>
+    </nav>
+    <!--main content-->
+    <section class="container">
+        <section class="row d-flex flex-column align-items-center justify-content-center">
+            <section class="col-md-12 d-flex justify-content-center">
+                <h3 class="padded">About Me</h3>
             </section>
-      </section>
+            <section class="col-md-12 d-flex justify-content-center" id="index-name">
+                <h5 class="padded">Sam Grose</h5>
+            </section>
+            <section class="row">
+                <section class="col-md-5 d-flex justify-content-center">
+                    <img class="img-fluid" src="images/sams-headshot.jpg" alt="Sam's Headshot">
+                </section>
+                <aside class="col-md-7 d-flex flex-column align-items-center justify-content-center">
+                    <p>Nice to meet you! I'm a creative polyglot becoming a full stack developer, with the intent to run
+                        a food blog.</p>
+                    <section class="container">
+                        <section class="row d-flex ">
+                            <section class="col-md-6">
+                                <p> <strong>Foreign Languages I speak:</strong></p>
+                                <ul>
+                                    <li>Spanish</li>
+                                    <li>Portuguese (Brazilian)</li>
+                                    <li>Mandarin</li>
+                                </ul>
+                            </section>
+                            <section class="col-md-6">
+                                <p> <strong>Programming Languages:</strong></p>
+                                <ul>
+                                    <li>Java</li>
+                                    <li>Javascript</li>
+                                    <li>HTML/CSS</li>
+                                </ul>
+                            </section>
+                        </section>
+                    </section>
+                    <p><q>Knowledge and understanding can only increase the odds of success</q></p>
+                    <p>- Gordon LaVelle</p>
+                </aside>
+            </section>
+        </section>
+    </section>
 
-      <!--sticky footer-->
-      <footer class="footer d-flex justify-content-center  fixed-bottom">
+    <!--sticky footer-->
+    <footer class="footer d-flex justify-content-center  fixed-bottom">
         <h6>&copy; Grose Ventures 2020</h6>
-        </footer>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
