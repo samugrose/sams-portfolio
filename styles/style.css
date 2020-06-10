@@ -30,7 +30,8 @@ figure {
     color: #8fbc8f;
 }
 
-#padded {
+.padded {
     padding-bottom: 20px;
+    padding-top: 20px;
 }
  
