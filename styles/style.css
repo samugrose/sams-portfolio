@@ -11,10 +11,6 @@ form {
     margin: 0 auto;
 }
 
-nav {
-    /* position: fixed; */
-}
-
 figure {
     background-color: darkslateblue;
     padding: 20px;
@@ -28,7 +24,6 @@ figure {
 
 .navbar {
     background-color: #8fbc8f !important;
-    /* position: fixed; */
 }
 
 .hoverable:hover {
