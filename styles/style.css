@@ -47,6 +47,10 @@ figure {
     background-color: #8fbc8f !important;
 }
 
+.navbar-brand {
+    padding-left: 40px;
+}
+
 .hoverable:hover {
     color: #8fbc8f;
 }
