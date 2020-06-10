@@ -3,6 +3,11 @@ a {
     color: white;
 }
 
+body {
+    background-color: ivory;
+    font-family: 'Open Sans', sans-serif;
+}
+
 a:hover {
     text-decoration: none;
 }
