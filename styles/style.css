@@ -12,7 +12,7 @@ form {
 }
 
 nav {
-    position: fixed;
+    /* position: fixed; */
 }
 
 figure {
@@ -22,14 +22,20 @@ figure {
 }
 
 .container {
-    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .navbar {
     background-color: #8fbc8f !important;
+    /* position: fixed; */
 }
 
 .hoverable:hover {
     color: #8fbc8f;
+}
+
+#padded {
+    padding-bottom: 20px;
 }
  
