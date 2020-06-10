@@ -24,4 +24,12 @@ figure {
 .container {
     padding: 40px;
 }
+
+.navbar {
+    background-color: #8fbc8f !important;
+}
+
+.hoverable:hover {
+    color: #8fbc8f;
+}
  
