@@ -1,4 +1,11 @@
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
 
+a:hover {
+    text-decoration: none;
+}
 
 footer {
     background-color: #8fbc8f;
