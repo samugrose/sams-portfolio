@@ -4,7 +4,7 @@ a {
 }
 
 body {
-    background-color: ivory;
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,7 +13,7 @@ a:hover {
 }
 
 footer {
-    background-color: #8fbc8f;
+    background-color: black;
 } 
 
 q {
@@ -21,11 +21,11 @@ q {
 }
 
 h3 {
-    color: darkslateblue;
+    color: #42464b;
 }
 
 h5 {
-    color: #212529;
+    color: #42464b;
 }
 
 footer h6 {
@@ -38,9 +38,9 @@ form {
 }
 
 figure {
-    background-color: darkslateblue;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #42464b;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 .container {
@@ -49,7 +49,7 @@ figure {
 }
 
 .navbar {
-    background-color: #8fbc8f !important;
+    background-color: #42464b !important;
 }
 
 .navbar-brand {
@@ -57,7 +57,7 @@ figure {
 }
 
 .hoverable:hover {
-    color: #8fbc8f;
+    color: white;
 }
 
 .padded {
